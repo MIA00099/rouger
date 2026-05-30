@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Riders Lounge Kigali | Breakfast, Business Lunch & Fine Dining</title>
+  <meta name="title" content="Riders Lounge Kigali | Breakfast, Business Lunch & Fine Dining" />
+  <meta name="description" content="Riders Lounge Kigali at Kigali Heights offers premium breakfast, business lunch, fine dining, family treats, cocktails, and elegant lounge experiences. RSVP +250 784 836 839." />
+  <meta name="keywords" content="Riders Lounge Kigali, Kigali Heights restaurant, breakfast Kigali, business lunch Kigali, fine dining Kigali, premium lounge Kigali, family restaurant Kigali, KG 7 Ave Kigali" />
+  <meta name="author" content="Riders Lounge Kigali" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://ridersloungekigali.com/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://ridersloungekigali.com/" />
+  <meta property="og:title" content="Riders Lounge Kigali | Premium Lounge at Kigali Heights" />
+  <meta property="og:description" content="Treats for the whole family. Premium lounge for breakfast, business lunch, fine dining, and elegant Kigali moments." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1200&q=80" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Riders Lounge Kigali | Breakfast, Business Lunch & Fine Dining" />
+  <meta name="twitter:description" content="Premium lounge at Kigali Heights. RSVP +250 784 836 839." />
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1200&q=80" />
+
+  <link rel="dns-prefetch" href="https://cdn.tailwindcss.com" />
+  <link rel="preconnect" href="https://cdn.tailwindcss.com" crossorigin />
+  <link rel="preconnect" href="https://images.unsplash.com" crossorigin />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            ridersGold: '#c79a45',
+            ridersCream: '#f5ead8',
+            ridersDark: '#080604'
+          },
+          boxShadow: {
+            glow: '0 25px 80px rgba(199,154,69,.25)'
+          }
+        }
+      }
+    }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Riders Lounge Kigali",
+    "description": "Premium lounge for breakfast, business lunch, fine dining, family treats, and elegant Kigali experiences.",
+    "url": "https://ridersloungekigali.com/",
+    "telephone": "+250784836839",
+    "priceRange": "$$$",
+    "servesCuisine": ["Breakfast", "Fine Dining", "Continental", "Rwandan", "Cocktails"],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "KG 7 Ave, Kigali Heights",
+      "addressLocality": "Kigali",
+      "addressCountry": "RW"
+    },
+    "sameAs": ["https://www.instagram.com/ridersloungerw/"]
+  }
+  </script>
+
+  <style>
+    body { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    ::-webkit-scrollbar { width: 8px; }
+    ::-webkit-scrollbar-track { background: #080604; }
+    ::-webkit-scrollbar-thumb { background: #c79a45; border-radius: 999px; }
+    .glass { background: rgba(8,6,4,.72); backdrop-filter: blur(18px); }
+  </style>
+</head>
+<body class="min-h-screen bg-ridersDark text-stone-100 selection:bg-ridersGold selection:text-white">
+  <header>
+    <nav id="navbar" class="fixed top-0 left-0 w-full z-50 transition-all duration-500 bg-transparent py-6" aria-label="Main navigation">
+      <div class="max-w-7xl mx-auto px-5 md:px-10 flex items-center justify-between">
+        <button onclick="scrollToSection('home')" class="text-left text-2xl md:text-3xl font-black tracking-[0.18em] text-white" aria-label="Riders Lounge home">
+          <span class="text-ridersGold">RIDERS</span><span class="block text-xs tracking-[0.45em] font-medium text-ridersCream/80">LOUNGE KIGALI</span>
+        </button>
+        <div class="hidden lg:flex items-center gap-8 text-xs font-bold tracking-[0.25em] text-ridersCream/80">
+          <button onclick="scrollToSection('experience')" class="hover:text-ridersGold transition">EXPERIENCE</button>
+          <button onclick="scrollToSection('moments')" class="hover:text-ridersGold transition">MOMENTS</button>
+          <button onclick="scrollToSection('menu')" class="hover:text-ridersGold transition">MENU</button>
+          <button onclick="scrollToSection('gallery')" class="hover:text-ridersGold transition">GALLERY</button>
+          <button onclick="scrollToSection('contact')" class="border border-ridersGold text-ridersGold px-6 py-3 hover:bg-ridersGold hover:text-black transition">RSVP</button>
+        </div>
+        <button onclick="toggleMobileMenu()" aria-label="Open navigation" aria-expanded="false" aria-controls="mobile-menu" class="lg:hidden text-white">
+          <span id="menu-icon-container">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+          </span>
+        </button>
+      </div>
+    </nav>
+
+    <div id="mobile-menu" class="hidden fixed inset-0 bg-ridersDark z-40 flex-col items-center justify-center gap-8 text-lg tracking-[0.25em] font-bold" aria-hidden="true">
+      <button onclick="scrollToSection('experience')">EXPERIENCE</button>
+      <button onclick="scrollToSection('moments')">MOMENTS</button>
+      <button onclick="scrollToSection('menu')">MENU</button>
+      <button onclick="scrollToSection('gallery')">GALLERY</button>
+      <button onclick="scrollToSection('contact')" class="text-ridersGold">RESERVE</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="relative min-h-screen flex items-center justify-center overflow-hidden">
+      <div class="absolute inset-0">
+        <img fetchpriority="high" src="https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1800&q=85" alt="Premium dining lounge atmosphere" class="w-full h-full object-cover" />
+        <div class="absolute inset-0 bg-black/65"></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-ridersDark via-ridersDark/30 to-black/40"></div>
+      </div>
+
+      <div class="relative z-10 max-w-5xl mx-auto px-6 text-center pt-24">
+        <p class="inline-flex items-center gap-3 text-xs md:text-sm tracking-[0.3em] text-ridersGold font-bold uppercase border border-ridersGold/40 px-5 py-3 rounded-full bg-black/30">
+          Kigali Heights • KG 7 Ave
+        </p>
+        <h1 class="mt-8 text-5xl md:text-7xl lg:text-8xl font-black text-white leading-[0.95] uppercase tracking-tight">
+          Breakfast to <span class="block text-transparent bg-clip-text bg-gradient-to-r from-ridersCream via-ridersGold to-yellow-600">Fine Dining</span>
+        </h1>
+        <p class="max-w-2xl mx-auto mt-7 text-lg md:text-xl text-ridersCream/85 font-light leading-relaxed">
+          Treats for the whole family. A premium Kigali lounge for breakfast, business lunch, elegant dining, cocktails, and memorable moments.
+        </p>
+        <div class="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="https://wa.me/250784836839?text=Hello%20Riders%20Lounge%20Kigali%2C%20I%20would%20like%20to%20reserve%20a%20table." class="bg-ridersGold text-black px-8 py-4 text-sm font-black tracking-[0.25em] hover:bg-ridersCream transition shadow-glow">RESERVE ON WHATSAPP</a>
+          <button onclick="scrollToSection('menu')" class="border border-white/25 text-white px-8 py-4 text-sm font-black tracking-[0.25em] hover:bg-white/10 transition">EXPLORE MENU</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="py-24 px-6 md:px-10 max-w-7xl mx-auto">
+      <div class="grid lg:grid-cols-2 gap-14 items-center">
+        <div>
+          <p class="text-ridersGold text-sm font-bold tracking-[0.35em] uppercase">Official Account @ridersloungerw</p>
+          <h2 class="mt-5 text-4xl md:text-6xl font-black text-white leading-tight">Premium lounge energy for every part of your day.</h2>
+          <p class="mt-6 text-lg leading-relaxed text-stone-400">Riders Lounge Kigali brings together warm family dining, polished business meetings, and refined evening experiences inside one elegant destination at Kigali Heights.</p>
+          <div class="mt-10 grid sm:grid-cols-2 gap-5">
+            <div class="glass border border-white/10 p-6 rounded-2xl">
+              <h3 class="text-xl font-bold text-white">Family Treats</h3>
+              <p class="mt-3 text-stone-400 text-sm leading-relaxed">Comfortable space, rich flavors, and a welcoming atmosphere for breakfast, brunch, and relaxed family meals.</p>
+            </div>
+            <div class="glass border border-white/10 p-6 rounded-2xl">
+              <h3 class="text-xl font-bold text-white">Business Lunch</h3>
+              <p class="mt-3 text-stone-400 text-sm leading-relaxed">A polished setting for meetings, quick executive lunches, client conversations, and professional dining.</p>
+            </div>
+            <div class="glass border border-white/10 p-6 rounded-2xl">
+              <h3 class="text-xl font-bold text-white">Fine Dining</h3>
+              <p class="mt-3 text-stone-400 text-sm leading-relaxed">Elegant plates, beautiful presentation, premium service, and a relaxed luxury feel in the heart of Kigali.</p>
+            </div>
+            <div class="glass border border-white/10 p-6 rounded-2xl">
+              <h3 class="text-xl font-bold text-white">Lounge Evenings</h3>
+              <p class="mt-3 text-stone-400 text-sm leading-relaxed">Cocktails, soft music, stylish ambience, and perfect nights out with friends or special guests.</p>
+            </div>
+          </div>
+        </div>
+        <div class="relative min-h-[620px]">
+          <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=900&q=85" width="900" height="1200" loading="lazy" decoding="async" alt="Fine dining table" class="absolute top-0 left-0 w-[78%] h-[520px] object-cover rounded-3xl shadow-2xl" />
+          <img src="https://images.unsplash.com/photo-1559329007-40df8a9345d8?auto=format&fit=crop&w=900&q=85" width="900" height="900" loading="lazy" decoding="async" alt="Elegant lounge seating" class="absolute bottom-0 right-0 w-[65%] h-[390px] object-cover rounded-3xl border-[10px] border-ridersDark shadow-glow" />
+        </div>
+      </div>
+    </section>
+
+    <section id="moments" class="py-24 bg-stone-950 border-y border-white/10">
+      <div class="max-w-7xl mx-auto px-6 md:px-10">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <p class="text-ridersGold text-sm font-bold tracking-[0.35em] uppercase">Three Experiences</p>
+          <h2 class="mt-4 text-4xl md:text-5xl font-black text-white">Choose your Riders moment.</h2>
+        </div>
+        <div class="grid md:grid-cols-3 gap-7">
+          <article class="group relative overflow-hidden rounded-3xl min-h-[470px] bg-black">
+            <img src="https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?auto=format&fit=crop&w=900&q=85" loading="lazy" decoding="async" alt="Premium breakfast" class="absolute inset-0 w-full h-full object-cover opacity-70 group-hover:scale-110 transition duration-700" />
+            <div class="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent"></div>
+            <div class="absolute bottom-0 p-8">
+              <p class="text-ridersGold text-xs tracking-[0.3em] font-bold">MORNING</p>
+              <h3 class="mt-3 text-3xl font-black text-white">Breakfast & Coffee</h3>
+              <p class="mt-3 text-stone-300">Start your day with warm plates, fresh coffee, and calm premium energy.</p>
+            </div>
+          </article>
+          <article class="group relative overflow-hidden rounded-3xl min-h-[470px] bg-black">
+            <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=900&q=85" loading="lazy" decoding="async" alt="Business lunch meeting" class="absolute inset-0 w-full h-full object-cover opacity-70 group-hover:scale-110 transition duration-700" />
+            <div class="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent"></div>
+            <div class="absolute bottom-0 p-8">
+              <p class="text-ridersGold text-xs tracking-[0.3em] font-bold">MIDDAY</p>
+              <h3 class="mt-3 text-3xl font-black text-white">Business Lunch</h3>
+              <p class="mt-3 text-stone-300">Meet, connect, and close conversations in a calm executive setting.</p>
+            </div>
+          </article>
+          <article class="group relative overflow-hidden rounded-3xl min-h-[470px] bg-black">
+            <img src="https://images.unsplash.com/photo-1470337458703-415120a41767?auto=format&fit=crop&w=900&q=85" loading="lazy" decoding="async" alt="Lounge cocktails" class="absolute inset-0 w-full h-full object-cover opacity-70 group-hover:scale-110 transition duration-700" />
+            <div class="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent"></div>
+            <div class="absolute bottom-0 p-8">
+              <p class="text-ridersGold text-xs tracking-[0.3em] font-bold">EVENING</p>
+              <h3 class="mt-3 text-3xl font-black text-white">Fine Dining & Lounge</h3>
+              <p class="mt-3 text-stone-300">Dinner, cocktails, celebration, and stylish Kigali nightlife ambience.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="menu" class="py-24 relative overflow-hidden">
+      <div class="absolute inset-0 opacity-10">
+        <img src="https://images.unsplash.com/photo-1543353071-087092ec393a?auto=format&fit=crop&w=1800&q=85" loading="lazy" decoding="async" alt="Menu background" class="w-full h-full object-cover" />
+      </div>
+      <div class="relative z-10 max-w-6xl mx-auto px-6 md:px-10">
+        <div class="text-center mb-16">
+          <p class="text-ridersGold text-sm font-bold tracking-[0.35em] uppercase">Menu Highlights</p>
+          <h2 class="mt-4 text-4xl md:text-5xl font-black text-white">Made for families, meetings, and nights out.</h2>
+        </div>
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="glass border border-white/10 p-8 rounded-3xl">
+            <h3 class="text-2xl font-black text-white border-b border-white/10 pb-5">Breakfast</h3>
+            <ul class="mt-6 space-y-5 text-stone-300">
+              <li><span class="font-bold text-ridersCream">Classic Breakfast</span><br><span class="text-sm text-stone-500">Eggs, toast, sausage, fresh sides</span></li>
+              <li><span class="font-bold text-ridersCream">Pancakes & Treats</span><br><span class="text-sm text-stone-500">Sweet morning plates for the family</span></li>
+              <li><span class="font-bold text-ridersCream">Coffee Selection</span><br><span class="text-sm text-stone-500">Espresso, cappuccino, latte, tea</span></li>
+            </ul>
+          </div>
+          <div class="glass border border-ridersGold/40 p-8 rounded-3xl shadow-glow">
+            <h3 class="text-2xl font-black text-white border-b border-white/10 pb-5">Business Lunch</h3>
+            <ul class="mt-6 space-y-5 text-stone-300">
+              <li><span class="font-bold text-ridersCream">Executive Plates</span><br><span class="text-sm text-stone-500">Fast, polished, filling lunch options</span></li>
+              <li><span class="font-bold text-ridersCream">Fresh Salads</span><br><span class="text-sm text-stone-500">Light dishes for productive afternoons</span></li>
+              <li><span class="font-bold text-ridersCream">Group Reservations</span><br><span class="text-sm text-stone-500">Tables for teams and client meetings</span></li>
+            </ul>
+          </div>
+          <div class="glass border border-white/10 p-8 rounded-3xl">
+            <h3 class="text-2xl font-black text-white border-b border-white/10 pb-5">Fine Dining</h3>
+            <ul class="mt-6 space-y-5 text-stone-300">
+              <li><span class="font-bold text-ridersCream">Chef Specials</span><br><span class="text-sm text-stone-500">Premium mains with elegant plating</span></li>
+              <li><span class="font-bold text-ridersCream">Cocktails</span><br><span class="text-sm text-stone-500">Signature drinks and lounge classics</span></li>
+              <li><span class="font-bold text-ridersCream">Desserts</span><br><span class="text-sm text-stone-500">Sweet endings for beautiful moments</span></li>
+            </ul>
+          </div>
+        </div>
+        <div class="text-center mt-12">
+          <a href="https://wa.me/250784836839?text=Hello%20Riders%20Lounge%2C%20please%20send%20me%20your%20menu." class="inline-flex bg-white text-black px-8 py-4 text-sm font-black tracking-[0.25em] hover:bg-ridersGold transition">REQUEST MENU</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="py-2">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-2">
+        <img src="https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=700&q=85" loading="lazy" decoding="async" alt="Chef preparing dish" class="h-64 md:h-80 w-full object-cover hover:opacity-75 transition" />
+        <img src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=700&q=85" loading="lazy" decoding="async" alt="Breakfast coffee" class="h-64 md:h-80 w-full object-cover hover:opacity-75 transition" />
+        <img src="https://images.unsplash.com/photo-1544148103-0773bf10d330?auto=format&fit=crop&w=700&q=85" loading="lazy" decoding="async" alt="Dining table" class="h-64 md:h-80 w-full object-cover hover:opacity-75 transition" />
+        <img src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=700&q=85" loading="lazy" decoding="async" alt="Lounge bar" class="h-64 md:h-80 w-full object-cover hover:opacity-75 transition" />
+      </div>
+    </section>
+
+    <section id="contact" class="py-24 bg-stone-950 border-t border-white/10">
+      <div class="max-w-7xl mx-auto px-6 md:px-10">
+        <div class="text-center mb-14">
+          <p class="text-ridersGold text-sm font-bold tracking-[0.35em] uppercase">Reserve Your Table</p>
+          <h2 class="mt-4 text-4xl md:text-5xl font-black text-white">Visit Riders Lounge Kigali</h2>
+        </div>
+        <div class="grid lg:grid-cols-2 gap-10">
+          <div class="glass border border-white/10 rounded-3xl p-8 md:p-10">
+            <h3 class="text-3xl font-black text-white">Contact & Location</h3>
+            <div class="mt-8 space-y-6">
+              <div class="border-l-4 border-ridersGold pl-5">
+                <p class="text-sm tracking-[0.25em] text-ridersGold font-bold">RSVP / WHATSAPP</p>
+                <a href="https://wa.me/250784836839" class="mt-1 block text-2xl font-black text-white hover:text-ridersGold transition">+250 784 836 839</a>
+              </div>
+              <div class="border-l-4 border-ridersGold pl-5">
+                <p class="text-sm tracking-[0.25em] text-ridersGold font-bold">LOCATION</p>
+                <p class="mt-1 text-xl font-bold text-white">Kigali Heights, KG 7 Ave, Kigali, Rwanda</p>
+              </div>
+              <div class="border-l-4 border-ridersGold pl-5">
+                <p class="text-sm tracking-[0.25em] text-ridersGold font-bold">INSTAGRAM</p>
+                <a href="https://www.instagram.com/ridersloungerw/" class="mt-1 block text-xl font-bold text-white hover:text-ridersGold transition">@ridersloungerw</a>
+              </div>
+            </div>
+            <div class="mt-10 grid sm:grid-cols-2 gap-4">
+              <a href="tel:+250784836839" class="text-center bg-ridersGold text-black px-6 py-4 font-black tracking-[0.2em] hover:bg-ridersCream transition">CALL NOW</a>
+              <a href="https://wa.me/250784836839?text=Hello%20Riders%20Lounge%20Kigali%2C%20I%20want%20to%20book%20a%20table." class="text-center border border-white/20 text-white px-6 py-4 font-black tracking-[0.2em] hover:bg-white/10 transition">WHATSAPP</a>
+            </div>
+          </div>
+
+          <form onsubmit="sendReservation(event)" class="glass border border-white/10 rounded-3xl p-8 md:p-10">
+            <h3 class="text-3xl font-black text-white">Quick Reservation</h3>
+            <div class="mt-8 space-y-4">
+              <input id="name" required type="text" placeholder="Your name" class="w-full bg-black/40 border border-white/10 px-5 py-4 rounded-xl text-white outline-none focus:border-ridersGold" />
+              <input id="guests" required type="number" min="1" placeholder="Number of guests" class="w-full bg-black/40 border border-white/10 px-5 py-4 rounded-xl text-white outline-none focus:border-ridersGold" />
+              <input id="date" required type="datetime-local" class="w-full bg-black/40 border border-white/10 px-5 py-4 rounded-xl text-white outline-none focus:border-ridersGold" />
+              <select id="type" class="w-full bg-black/40 border border-white/10 px-5 py-4 rounded-xl text-white outline-none focus:border-ridersGold">
+                <option>Breakfast</option>
+                <option>Business Lunch</option>
+                <option>Fine Dining</option>
+                <option>Family Treats</option>
+                <option>Evening Lounge</option>
+              </select>
+              <textarea id="message" rows="4" placeholder="Special request" class="w-full bg-black/40 border border-white/10 px-5 py-4 rounded-xl text-white outline-none focus:border-ridersGold resize-none"></textarea>
+              <button type="submit" class="w-full bg-ridersGold text-black px-8 py-4 text-sm font-black tracking-[0.25em] hover:bg-ridersCream transition">SEND RESERVATION</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="mt-12 h-[420px] rounded-3xl overflow-hidden border border-white/10">
+          <iframe src="https://maps.google.com/maps?q=Kigali%20Heights%20KG%207%20Ave%20Kigali%20Rwanda&t=&z=16&ie=UTF8&iwloc=&output=embed" width="100%" height="100%" style="border:0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Riders Lounge Kigali location"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-ridersDark py-10">
+    <div class="max-w-7xl mx-auto px-6 md:px-10 flex flex-col md:flex-row items-center justify-between gap-6 border-t border-white/10 pt-8">
+      <p class="text-stone-500 text-sm">© <span id="current-year"></span> Riders Lounge Kigali. All Rights Reserved.</p>
+      <div class="flex items-center gap-5 text-sm font-bold tracking-[0.2em] text-stone-400">
+        <a href="https://www.instagram.com/ridersloungerw/" class="hover:text-ridersGold transition">INSTAGRAM</a>
+        <a href="https://wa.me/250784836839" class="hover:text-ridersGold transition">RSVP</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 40) {
+        navbar.classList.add('glass', 'py-4', 'shadow-2xl');
+        navbar.classList.remove('bg-transparent', 'py-6');
+      } else {
+        navbar.classList.remove('glass', 'py-4', 'shadow-2xl');
+        navbar.classList.add('bg-transparent', 'py-6');
+      }
+    }, { passive: true });
+
+    let isMobileMenuOpen = false;
+    const openIcon = '<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>';
+    const closeIcon = '<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg>';
+
+    function toggleMobileMenu() {
+      const menu = document.getElementById('mobile-menu');
+      const icon = document.getElementById('menu-icon-container');
+      const button = document.querySelector('button[aria-controls="mobile-menu"]');
+      isMobileMenuOpen = !isMobileMenuOpen;
+      button.setAttribute('aria-expanded', String(isMobileMenuOpen));
+      menu.setAttribute('aria-hidden', String(!isMobileMenuOpen));
+      if (isMobileMenuOpen) {
+        menu.classList.remove('hidden');
+        menu.classList.add('flex');
+        icon.innerHTML = closeIcon;
+      } else {
+        menu.classList.add('hidden');
+        menu.classList.remove('flex');
+        icon.innerHTML = openIcon;
+      }
+    }
+
+    function scrollToSection(id) {
+      const el = document.getElementById(id);
+      if (el) el.scrollIntoView({ behavior: 'smooth' });
+      if (isMobileMenuOpen) toggleMobileMenu();
+    }
+
+    function sendReservation(event) {
+      event.preventDefault();
+      const name = document.getElementById('name').value.trim();
+      const guests = document.getElementById('guests').value.trim();
+      const date = document.getElementById('date').value.trim();
+      const type = document.getElementById('type').value;
+      const message = document.getElementById('message').value.trim();
+      const text = `Hello Riders Lounge Kigali, I would like to reserve a table.%0AName: ${encodeURIComponent(name)}%0AGuests: ${encodeURIComponent(guests)}%0ADate: ${encodeURIComponent(date)}%0AExperience: ${encodeURIComponent(type)}%0ARequest: ${encodeURIComponent(message || 'None')}`;
+      window.open(`https://wa.me/250784836839?text=${text}`, '_blank');
+    }
+  </script>
+</body>
+</html>
